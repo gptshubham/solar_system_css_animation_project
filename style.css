@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: inherit;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbit {
+  height: 75px;
+  width: 75px;
+  position: relative;
+  /* background-color: green; */
+}
+
+.Sum {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.Sum > img {
+  height: 7rem;
+}
+
+.Mercury {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: mercury;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.Mercury > img {
+  height: 2rem;
+}
+
+@keyframes mercury {
+  from {
+    transform: rotate(0deg) translate(100px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(100px) rotate(-360deg);
+  }
+}
