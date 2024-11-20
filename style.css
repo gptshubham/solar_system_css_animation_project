@@ -60,6 +60,15 @@ body {
 .Mercury > img {
   height: 2rem;
 }
+.mercury_orbit {
+  height: 12.7rem;
+  width: 12.7rem;
+  border: 1px dashed white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+}
 
 @keyframes mercury {
   from {
@@ -88,6 +97,15 @@ body {
 }
 .Venus > img {
   height: 4rem;
+}
+.venus_orbit {
+  height: 19rem;
+  width: 19rem;
+  border: 1px dashed white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -95px;
+  right: -95px;
 }
 
 @keyframes venus {
@@ -118,6 +136,15 @@ body {
 .Earth > img {
   height: 4rem;
 }
+.earth_orbit {
+  height: 25.5rem;
+  width: 25.5rem;
+  border: 1px dashed white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -150px;
+  right: -150px;
+}
 
 @keyframes earth {
   from {
@@ -146,6 +173,15 @@ body {
 }
 .Mars > img {
   height: 2rem;
+}
+.mars_orbit {
+  height: 32.6rem;
+  width: 32.6rem;
+  border: 1px dashed white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -209px;
+  right: -209px;
 }
 
 @keyframes mars {
@@ -176,6 +212,15 @@ body {
 .Jupiter > img {
   height: 3.5rem;
 }
+.jupyter_orbit {
+  height: 40.2rem;
+  width: 40.2rem;
+  border: 1px dashed white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -270px;
+  right: -270px;
+}
 
 @keyframes jupyter {
   from {
@@ -203,6 +248,15 @@ body {
 }
 .Saturn > img {
   height: 2.5rem;
+}
+.saturn_orbit {
+  height: 50rem;
+  width: 50rem;
+  border: 1px dashed white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -345px;
+  right: -345px;
 }
 
 @keyframes saturn {
@@ -233,6 +287,15 @@ body {
 .Uranus > img {
   height: 2.5rem;
 }
+.uranus_orbit {
+  height: 59rem;
+  width: 59rem;
+  border: 1px dashed white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -418px;
+  right: -418px;
+}
 
 @keyframes uranus {
   from {
@@ -261,6 +324,15 @@ body {
 }
 .Neptune > img {
   height: 2.5rem;
+}
+.neptune_orbit {
+  height: 65rem;
+  width: 65rem;
+  border: 1px dashed white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -465px;
+  right: -465px;
 }
 
 @keyframes neptune {
