@@ -25,6 +25,7 @@ body {
   /* background-color: green; */
 }
 
+/* Sun */
 .Sum {
   height: 75px;
   width: 75px;
@@ -40,6 +41,7 @@ body {
   height: 7rem;
 }
 
+/* Mercury */
 .Mercury {
   height: 30px;
   width: 30px;
@@ -65,5 +67,207 @@ body {
   }
   to {
     transform: rotate(360deg) translate(100px) rotate(-360deg);
+  }
+}
+
+/* Venus */
+.Venus {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: venus;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.Venus > img {
+  height: 4rem;
+}
+
+@keyframes venus {
+  from {
+    transform: rotate(0deg) translate(150px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(150px) rotate(-360deg);
+  }
+}
+
+/* Earth */
+.Earth {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: earth;
+  animation-duration: 18s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.Earth > img {
+  height: 4rem;
+}
+
+@keyframes earth {
+  from {
+    transform: rotate(0deg) translate(200px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(200px) rotate(-360deg);
+  }
+}
+
+/* Mars */
+.Mars {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: mars;
+  animation-duration: 25s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.Mars > img {
+  height: 2rem;
+}
+
+@keyframes mars {
+  from {
+    transform: rotate(0deg) translate(260px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(260px) rotate(-360deg);
+  }
+}
+
+/* Jupyter */
+.Jupiter {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: jupyter;
+  animation-duration: 31s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.Jupiter > img {
+  height: 3.5rem;
+}
+
+@keyframes jupyter {
+  from {
+    transform: rotate(0deg) translate(320px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(320px) rotate(-360deg);
+  }
+}
+
+.Saturn {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: saturn;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.Saturn > img {
+  height: 2.5rem;
+}
+
+@keyframes saturn {
+  from {
+    transform: rotate(0deg) translate(400px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(400px) rotate(-360deg);
+  }
+}
+
+/* Uranus */
+.Uranus {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: uranus;
+  animation-duration: 50s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.Uranus > img {
+  height: 2.5rem;
+}
+
+@keyframes uranus {
+  from {
+    transform: rotate(0deg) translate(470px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(470px) rotate(-360deg);
+  }
+}
+
+/* Neptune */
+.Neptune {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: neptune;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.Neptune > img {
+  height: 2.5rem;
+}
+
+@keyframes neptune {
+  from {
+    transform: rotate(0deg) translate(520px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(520px) rotate(-360deg);
   }
 }
